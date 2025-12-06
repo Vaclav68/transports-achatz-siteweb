@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:transports-achatz.fr)",
+      "Bash(mkdir:*)",
+      "Bash(dir /s /b \"D:\\Projets\\Projets Achatz\\SiteWeb\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

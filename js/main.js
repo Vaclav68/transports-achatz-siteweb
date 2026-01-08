@@ -80,23 +80,7 @@ document.addEventListener('DOMContentLoaded', function() {
         lastScroll = currentScroll;
     });
 
-    // Form submission handling
-    const contactForm = document.querySelector('.contact-form');
-
-    if (contactForm) {
-        contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-
-            // Get form data
-            const formData = new FormData(this);
-            const data = Object.fromEntries(formData);
-
-            // Here you would typically send the data to a server
-            // For now, just show a success message
-            alert('Merci pour votre message ! Nous vous répondrons rapidement.');
-            this.reset();
-        });
-    }
+    // Form submission handling is done in contact.js
 
     // Lazy loading images
     const images = document.querySelectorAll('img[data-src]');

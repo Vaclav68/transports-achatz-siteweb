@@ -69,14 +69,13 @@ img {
     z-index: 1000;
     background-color: rgba(2, 2, 2, 0.95);
     backdrop-filter: blur(10px);
-    border-bottom: 1px solid var(--color-gray);
 }
 
 .header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 30px;
+    padding: 15px 30px 5px;
     max-width: 1400px;
     margin: 0 auto;
 }
@@ -105,6 +104,16 @@ img {
 .nav-link:hover,
 .nav-link.active {
     color: var(--color-white);
+}
+
+/* Navigation secondaire (deuxième ligne) */
+.nav-secondary {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 12px;
+    position: relative;
+    transform: translateY(-70px) translateX(-110px);
+    margin-bottom: -70px;
 }
 
 .header-right {
@@ -206,6 +215,14 @@ img {
 
     .mobile-menu-btn.active span:nth-child(3) {
         transform: rotate(-45deg) translate(5px, -5px);
+    }
+
+    .nav-secondary {
+        padding: 8px 0;
+    }
+
+    .nav-secondary .nav-link {
+        font-size: 1rem;
     }
 }
 
@@ -744,12 +761,64 @@ img {
     width: 100%;
     height: 500px;
     line-height: 0;
+    scroll-margin-top: 280px;
 }
 
 .map-section iframe {
     width: 100%;
     height: 100%;
     display: block;
+}
+
+/* =====================================================
+   LEGAL SECTION (Politique de confidentialité, Mentions légales)
+   ===================================================== */
+.legal-section {
+    padding: 80px 20px;
+    background-color: var(--color-black);
+}
+
+.legal-content {
+    max-width: 800px;
+    margin: 0 auto;
+    color: var(--color-white);
+    line-height: 1.8;
+}
+
+.legal-update {
+    color: var(--color-white);
+    font-style: italic;
+    margin-bottom: 40px;
+}
+
+.legal-content h2 {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    color: var(--color-yellow);
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.legal-content p {
+    margin-bottom: 15px;
+}
+
+.legal-content ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.legal-content li {
+    margin-bottom: 8px;
+}
+
+.legal-content a {
+    color: var(--color-yellow);
+    text-decoration: underline;
+}
+
+.legal-content a:hover {
+    color: var(--color-white);
 }
 
 /* =====================================================

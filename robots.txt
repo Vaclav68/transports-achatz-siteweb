@@ -1,0 +1,11 @@
+# Robots.txt - Transports Achatz
+# https://transports-achatz.fr
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://transports-achatz.fr/sitemap.xml
+
+# Fichiers à ne pas indexer
+Disallow: /js/config.js

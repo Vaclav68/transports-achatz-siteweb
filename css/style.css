@@ -849,18 +849,6 @@ img {
     background-color: var(--color-black);
 }
 
-/* Widget Facebook */
-.facebook-widget {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 40px;
-}
-
-.facebook-widget .fb-page {
-    border-radius: 10px;
-    overflow: hidden;
-}
-
 .contact-form {
     max-width: 600px;
     margin: 0 auto;

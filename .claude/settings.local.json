@@ -3,7 +3,10 @@
     "allow": [
       "WebFetch(domain:transports-achatz.fr)",
       "Bash(mkdir:*)",
-      "Bash(dir /s /b \"D:\\Projets\\Projets Achatz\\SiteWeb\")"
+      "Bash(dir /s /b \"D:\\Projets\\Projets Achatz\\SiteWeb\")",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nchore: Suppression icônes X \\(Twitter\\) - réseau non pertinent\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push)"
     ],
     "deny": [],
     "ask": []

@@ -89,7 +89,7 @@
     <section class="hero">
         <div class="hero-slider">
             <div class="hero-slide active">
-                <img src="images/hero/hero-truck.svg" alt="Camion Transports Achatz">
+                <img src="images/hero/hero-truck.webp" alt="Camion Transports Achatz" width="1904" height="598" loading="eager">
             </div>
         </div>
                 <div class="hero-dots">
@@ -240,10 +240,24 @@
         </iframe>
     </section>
 
+    <!-- Facebook SDK -->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v24.0&appId=1290783022877649"></script>
+
     <!-- Contact Section -->
     <section id="contact" class="contact-section">
         <div class="container">
             <h2 class="section-title">Contactez-nous</h2>
+
+            <!-- Widget Facebook -->
+            <div class="facebook-widget">
+                <div class="fb-page" data-href="https://www.facebook.com/Transports.Achatz" data-tabs="timeline" data-width="500" data-height="340" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                    <blockquote cite="https://www.facebook.com/Transports.Achatz" class="fb-xfbml-parse-ignore">
+                        <a href="https://www.facebook.com/Transports.Achatz">Transports Achatz</a>
+                    </blockquote>
+                </div>
+            </div>
+
             <form id="contact-form" class="contact-form" novalidate>
                 <div class="form-group">
                     <label for="contact-name">Nom Prénom ou Entreprise *</label>

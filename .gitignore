@@ -1,0 +1,5 @@
+# Configuration locale Claude Code
+.claude/settings.local.json
+
+# Configuration MCP locale
+.mcp.json
